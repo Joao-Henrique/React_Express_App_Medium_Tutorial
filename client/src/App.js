@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import logo from './logo.svg';
+import { sum } from './Calculate';
 import './App.css';
 
 class App extends Component {
@@ -25,6 +26,7 @@ class App extends Component {
 				<header className="App-header">
 					<img src={logo} className="App-logo" alt="logo" />
 					<h1 className="App-title">“Welcome to ChaENSE701</h1>
+					<h3>{sum(2, 4)}</h3>
 				</header>
 				<p className="App-intro">{this.state.apiResponse}</p>
 			</div>
