@@ -43,4 +43,4 @@ app.use(function(err, req, res, next) {
 });
 
 module.exports = app;
-console.log("Welcome to CISE");
+console.log("Welcome to ENSE701");
